@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title data-i18n="optionsTitle">TabPal — Settings</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="page-head">
+        <img class="brand" src="icons/icon48.png" alt="" width="40" height="40" />
+        <div>
+          <h1 data-i18n="popupTitle">TabPal</h1>
+          <p class="muted" data-i18n="optionsTitle">TabPal — Settings</p>
+        </div>
+      </header>
+
+      <section class="card" aria-labelledby="general-h">
+        <h2 id="general-h" data-i18n="generalHeading">General</h2>
+        <label class="toggle-row">
+          <span>
+            <strong data-i18n="autoCloseLabel">Close tabs after saving</strong>
+            <span class="muted block" data-i18n="autoCloseHelp">When on, tabs disappear right after they are saved.</span>
+          </span>
+          <input id="auto-close" type="checkbox" />
+          <span class="switch" aria-hidden="true"></span>
+        </label>
+      </section>
+
+      <section class="card" aria-labelledby="data-h">
+        <h2 id="data-h" data-i18n="dataHeading">Data</h2>
+        <p class="muted" id="data-summary"></p>
+        <div class="btn-row">
+          <button id="export-btn" class="btn" type="button" data-i18n="exportJson">Export JSON</button>
+          <button id="import-btn" class="btn" type="button" data-i18n="importJson">Import JSON</button>
+          <button id="clear-btn" class="btn danger" type="button" data-i18n="clearAll">Clear all</button>
+        </div>
+        <input id="import-file" type="file" accept="application/json" hidden />
+      </section>
+
+      <section class="card" aria-labelledby="stats-h">
+        <h2 id="stats-h" data-i18n="statsHeading">Statistics</h2>
+        <div class="stats-grid">
+          <div>
+            <div class="muted" data-i18n="statsThisWeek">This week</div>
+            <div id="stats-week-saves" class="stat">0</div>
+            <div class="muted small" data-i18n="statsSaves">0 saves</div>
+          </div>
+          <div>
+            <div class="muted" data-i18n="statsAllTime">All time</div>
+            <div id="stats-all-saves" class="stat">0</div>
+            <div class="muted small" data-i18n="statsSaves">0 saves</div>
+          </div>
+          <div>
+            <div class="muted" data-i18n="statsAllTime">All time</div>
+            <div id="stats-all-tabs" class="stat">0</div>
+            <div class="muted small" data-i18n="statsTabs">0 tabs saved</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card" aria-labelledby="about-h">
+        <h2 id="about-h" data-i18n="aboutHeading">About</h2>
+        <dl class="about">
+          <dt data-i18n="aboutVersion">Version</dt>
+          <dd id="version">—</dd>
+          <dt data-i18n="aboutFeedback">Send feedback</dt>
+          <dd><a href="https://github.com/xie-tw/tabpal/issues" target="_blank" rel="noreferrer">GitHub Issues</a></dd>
+          <dt data-i18n="aboutPrivacy">Privacy policy</dt>
+          <dd><a href="https://github.com/xie-tw/tabpal/blob/main/PRIVACY.md" target="_blank" rel="noreferrer">PRIVACY.md</a></dd>
+        </dl>
+      </section>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <script type="module" src="options.js"></script>
+  </body>
+</html>
