@@ -85,7 +85,20 @@ python3 -c "import json; json.load(open('_locales/zh_CN/messages.json'))"
 
 # Validate the manifest
 python3 -c "import json; json.load(open('manifest.json'))"
+
+# Run the smoke tests (storage schema + i18n helpers, ~12 cases)
+node test/smoke.mjs
 ```
+
+## Screenshots
+
+Static previews of the popup and Settings page live in [`previews/`](./previews).
+The popup screenshot uses sample data; the actual popup renders real
+sessions from `chrome.storage.local` at runtime.
+
+| Popup | Settings |
+| --- | --- |
+| ![popup](./previews/popup-light.png) | ![options](./previews/options-light.png) |
 
 ## Roadmap (V1.1+)
 

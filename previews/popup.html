@@ -1,0 +1,98 @@
+<!doctype html>
+<!--
+  popup-preview.html — static preview of the popup for screenshots.
+  Renders the popup layout with sample data without needing the
+  extension runtime. Open in any browser to inspect the design.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>TabPal (preview)</title>
+    <link rel="stylesheet" href="../popup.css" />
+    <style>
+      body { width: 360px; min-height: 380px; padding: 14px 14px 12px; }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-text">
+        <h1>TabPal</h1>
+        <p class="subtitle">Save &amp; restore your tabs</p>
+      </div>
+      <button class="icon-btn" type="button" title="Settings" aria-label="Settings">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+          <path fill="currentColor" d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm9.4 4.5a7.7 7.7 0 0 0 0-1l2-1.6-2-3.4-2.4.9a7.4 7.4 0 0 0-1.7-1L16.8 4h-4l-.5 2.4a7.4 7.4 0 0 0-1.7 1l-2.4-.9-2 3.4L8.2 11.5a7.7 7.7 0 0 0 0 1l-2 1.6 2 3.4 2.4-.9c.5.4 1.1.7 1.7 1L12.8 20h4l.5-2.4c.6-.3 1.2-.6 1.7-1l2.4.9 2-3.4-2-1.6Z"/>
+        </svg>
+      </button>
+    </header>
+
+    <section class="primary-action">
+      <button id="save-btn" class="save-btn" type="button">
+        <span class="save-btn-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M5 3h11l3 3v15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Zm2 1v5h8V4H7Zm0 9v7h10v-7H7Z"/></svg>
+        </span>
+        <span class="save-btn-label">Save 32 tabs</span>
+        <span class="save-btn-hint"></span>
+      </button>
+    </section>
+
+    <section class="sessions" aria-labelledby="sessions-h">
+      <h2 id="sessions-h">RECENT SESSIONS</h2>
+      <ul class="session-list" role="list">
+        <li class="session">
+          <div class="session-row">
+            <div class="session-name">32 tabs · 2026-08-29 13:14</div>
+            <span class="session-count">32 tabs</span>
+          </div>
+          <div class="session-meta">just now</div>
+          <div class="session-actions">
+            <button class="btn-restore" type="button">Restore</button>
+            <button type="button">Rename</button>
+            <button class="btn-delete" type="button">Delete</button>
+          </div>
+        </li>
+        <li class="session">
+          <div class="session-row">
+            <div class="session-name">Research: LLM eval benchmarks</div>
+            <span class="session-count">18 tabs</span>
+          </div>
+          <div class="session-meta">42 min ago</div>
+          <div class="session-actions">
+            <button class="btn-restore" type="button">Restore</button>
+            <button type="button">Rename</button>
+            <button class="btn-delete" type="button">Delete</button>
+          </div>
+        </li>
+        <li class="session">
+          <div class="session-row">
+            <div class="session-name">12 tabs · 2026-08-28 21:02</div>
+            <span class="session-count">12 tabs</span>
+          </div>
+          <div class="session-meta">16 h ago</div>
+          <div class="session-actions">
+            <button class="btn-restore" type="button">Restore</button>
+            <button type="button">Rename</button>
+            <button class="btn-delete" type="button">Delete</button>
+          </div>
+        </li>
+        <li class="session">
+          <div class="session-row">
+            <div class="session-name">Friday reading list</div>
+            <span class="session-count">47 tabs</span>
+          </div>
+          <div class="session-meta">2 d ago</div>
+          <div class="session-actions">
+            <button class="btn-restore" type="button">Restore</button>
+            <button type="button">Rename</button>
+            <button class="btn-delete" type="button">Delete</button>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <span class="stats">4 sessions · 109 tabs saved</span>
+    </footer>
+  </body>
+</html>

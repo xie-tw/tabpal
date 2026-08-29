@@ -1,0 +1,78 @@
+<!doctype html>
+<!--
+  options-preview.html — static preview of the Settings page for screenshots.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>TabPal — Settings (preview)</title>
+    <link rel="stylesheet" href="../options.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="page-head">
+        <img class="brand" src="../icons/icon48.png" alt="" width="40" height="40" />
+        <div>
+          <h1>TabPal</h1>
+          <p class="muted">TabPal — Settings</p>
+        </div>
+      </header>
+
+      <section class="card" aria-labelledby="general-h">
+        <h2 id="general-h">GENERAL</h2>
+        <label class="toggle-row">
+          <span>
+            <strong>Close tabs after saving</strong>
+            <span class="muted block">When on, tabs disappear right after they are saved.</span>
+          </span>
+          <input type="checkbox" checked />
+          <span class="switch" aria-hidden="true"></span>
+        </label>
+      </section>
+
+      <section class="card" aria-labelledby="data-h">
+        <h2 id="data-h">DATA</h2>
+        <p class="muted">4 sessions · 109 tabs stored locally</p>
+        <div class="btn-row">
+          <button class="btn" type="button">Export JSON</button>
+          <button class="btn" type="button">Import JSON</button>
+          <button class="btn danger" type="button">Clear all</button>
+        </div>
+      </section>
+
+      <section class="card" aria-labelledby="stats-h">
+        <h2 id="stats-h">STATISTICS</h2>
+        <div class="stats-grid">
+          <div>
+            <div class="muted">This week</div>
+            <div class="stat">6</div>
+            <div class="muted small">6 saves</div>
+          </div>
+          <div>
+            <div class="muted">All time</div>
+            <div class="stat">23</div>
+            <div class="muted small">23 saves</div>
+          </div>
+          <div>
+            <div class="muted">All time</div>
+            <div class="stat">412</div>
+            <div class="muted small">412 tabs saved</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card" aria-labelledby="about-h">
+        <h2 id="about-h">ABOUT</h2>
+        <dl class="about">
+          <dt>Version</dt>
+          <dd>0.1.0 · manifest v3</dd>
+          <dt>Send feedback</dt>
+          <dd><a href="https://github.com/xie-tw/tabpal/issues">GitHub Issues</a></dd>
+          <dt>Privacy policy</dt>
+          <dd><a href="https://github.com/xie-tw/tabpal/blob/main/PRIVACY.md">PRIVACY.md</a></dd>
+        </dl>
+      </section>
+    </div>
+  </body>
+</html>
