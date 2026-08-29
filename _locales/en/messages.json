@@ -1,0 +1,228 @@
+{
+  "extName": {
+    "message": "TabPal",
+    "description": "Extension display name."
+  },
+  "extDescription": {
+    "message": "One-tap save and restore your Chrome tabs. Minimal, no login, fully local.",
+    "description": "Extension description in the Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "TabPal",
+    "description": "Popup heading."
+  },
+  "popupSubtitle": {
+    "message": "Save & restore your tabs",
+    "description": "Popup subtitle."
+  },
+  "saveTabs": {
+    "message": "Save $COUNT$ tabs",
+    "placeholders": {
+      "count": { "content": "$1", "example": "12" }
+    },
+    "description": "Main save button label."
+  },
+  "saveOneTab": {
+    "message": "Save 1 tab",
+    "description": "Save button when current window has one tab."
+  },
+  "noTabs": {
+    "message": "No tabs to save",
+    "description": "Save button disabled state."
+  },
+  "sessionsHeading": {
+    "message": "Recent sessions",
+    "description": "Session list heading."
+  },
+  "emptyState": {
+    "message": "No sessions yet — save your first batch above.",
+    "description": "Empty list placeholder."
+  },
+  "tabCount": {
+    "message": "$COUNT$ tabs",
+    "placeholders": {
+      "count": { "content": "$1", "example": "35" }
+    },
+    "description": "Tab count badge in session row."
+  },
+  "footerStats": {
+    "message": "$SESSIONS$ sessions · $TABS$ tabs saved",
+    "placeholders": {
+      "sessions": { "content": "$1", "example": "8" },
+      "tabs": { "content": "$2", "example": "240" }
+    },
+    "description": "Footer summary line."
+  },
+  "restore": {
+    "message": "Restore",
+    "description": "Restore session button."
+  },
+  "rename": {
+    "message": "Rename",
+    "description": "Rename session button."
+  },
+  "delete": {
+    "message": "Delete",
+    "description": "Delete session button."
+  },
+  "openOptions": {
+    "message": "Settings",
+    "description": "Footer link to options page."
+  },
+  "optionsTitle": {
+    "message": "TabPal — Settings",
+    "description": "Options page title."
+  },
+  "generalHeading": {
+    "message": "General",
+    "description": "Options section heading."
+  },
+  "autoCloseLabel": {
+    "message": "Close tabs after saving",
+    "description": "Toggle for auto-closing saved tabs."
+  },
+  "autoCloseHelp": {
+    "message": "When on, tabs disappear right after they are saved. Turn off if you want to keep them open.",
+    "description": "Help text under auto-close toggle."
+  },
+  "dataHeading": {
+    "message": "Data",
+    "description": "Options section heading."
+  },
+  "exportJson": {
+    "message": "Export JSON",
+    "description": "Export sessions button."
+  },
+  "importJson": {
+    "message": "Import JSON",
+    "description": "Import sessions button."
+  },
+  "clearAll": {
+    "message": "Clear all",
+    "description": "Danger button to wipe local data."
+  },
+  "clearAllConfirm": {
+    "message": "Delete every saved session? This cannot be undone.",
+    "description": "Confirm prompt before clearing data."
+  },
+  "statsHeading": {
+    "message": "Statistics",
+    "description": "Stats section."
+  },
+  "statsThisWeek": {
+    "message": "This week",
+    "description": "Stats label."
+  },
+  "statsAllTime": {
+    "message": "All time",
+    "description": "Stats label."
+  },
+  "statsSaves": {
+    "message": "$COUNT$ saves",
+    "placeholders": {
+      "count": { "content": "$1", "example": "12" }
+    },
+    "description": "Number of saves."
+  },
+  "statsTabs": {
+    "message": "$COUNT$ tabs saved",
+    "placeholders": {
+      "count": { "content": "$1", "example": "412" }
+    },
+    "description": "Total tabs saved."
+  },
+  "aboutHeading": {
+    "message": "About",
+    "description": "About section."
+  },
+  "aboutVersion": {
+    "message": "Version",
+    "description": "Version label."
+  },
+  "aboutFeedback": {
+    "message": "Send feedback",
+    "description": "Link to GitHub issues."
+  },
+  "aboutPrivacy": {
+    "message": "Privacy policy",
+    "description": "Link to PRIVACY.md."
+  },
+  "toastSaved": {
+    "message": "Saved $COUNT$ tabs",
+    "placeholders": {
+      "count": { "content": "$1", "example": "30" }
+    },
+    "description": "Toast after saving."
+  },
+  "toastRestored": {
+    "message": "Restored $COUNT$ tabs",
+    "placeholders": {
+      "count": { "content": "$1", "example": "30" }
+    },
+    "description": "Toast after restoring."
+  },
+  "toastDeleted": {
+    "message": "Session deleted",
+    "description": "Toast after delete."
+  },
+  "toastRenamed": {
+    "message": "Session renamed",
+    "description": "Toast after rename."
+  },
+  "toastImported": {
+    "message": "Imported $COUNT$ sessions",
+    "placeholders": {
+      "count": { "content": "$1", "example": "3" }
+    },
+    "description": "Toast after import."
+  },
+  "toastExported": {
+    "message": "Export downloaded",
+    "description": "Toast after export."
+  },
+  "toastCleared": {
+    "message": "All data cleared",
+    "description": "Toast after clear-all."
+  },
+  "toastImportFailed": {
+    "message": "Import failed — invalid JSON file.",
+    "description": "Toast on import error."
+  },
+  "renamePrompt": {
+    "message": "Rename session",
+    "description": "Prompt title when renaming."
+  },
+  "defaultSessionName": {
+    "message": "$COUNT$ tabs · $DATETIME$",
+    "placeholders": {
+      "count": { "content": "$1", "example": "35" },
+      "datetime": { "content": "$2", "example": "2024-08-29 13:14" }
+    },
+    "description": "Default session title."
+  },
+  "justNow": {
+    "message": "just now",
+    "description": "Relative time, under a minute."
+  },
+  "minutesAgo": {
+    "message": "$COUNT$ min ago",
+    "placeholders": {
+      "count": { "content": "$1", "example": "5" }
+    },
+    "description": "Relative time in minutes."
+  },
+  "hoursAgo": {
+    "message": "$COUNT$ h ago",
+    "placeholders": {
+      "count": { "content": "$1", "example": "3" }
+    },
+    "description": "Relative time in hours."
+  },
+  "daysAgo": {
+    "message": "$COUNT$ d ago",
+    "placeholders": {
+      "count": { "content": "$1", "example": "2" }
+    },
+    "description": "Relative time in days."
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "extName": {
+    "message": "TabPal 标签页管家",
+    "description": "扩展显示名称。"
+  },
+  "extDescription": {
+    "message": "一键暂存和恢复 Chrome 标签页。极简、免登录、纯本地。",
+    "description": "Chrome 应用商店描述。"
+  },
+  "popupTitle": {
+    "message": "TabPal",
+    "description": "弹窗标题。"
+  },
+  "popupSubtitle": {
+    "message": "暂存 · 恢复 · 一键搞定",
+    "description": "弹窗副标题。"
+  },
+  "saveTabs": {
+    "message": "暂存 $COUNT$ 个标签页",
+    "placeholders": {
+      "count": { "content": "$1", "example": "12" }
+    },
+    "description": "主暂存按钮。"
+  },
+  "saveOneTab": {
+    "message": "暂存 1 个标签页",
+    "description": "只有一个标签页时的主按钮。"
+  },
+  "noTabs": {
+    "message": "没有可暂存的标签页",
+    "description": "主按钮禁用态。"
+  },
+  "sessionsHeading": {
+    "message": "最近的会话",
+    "description": "会话列表标题。"
+  },
+  "emptyState": {
+    "message": "暂无会话 — 上方暂存你的第一批标签页。",
+    "description": "空列表占位。"
+  },
+  "tabCount": {
+    "message": "$COUNT$ 个标签页",
+    "placeholders": {
+      "count": { "content": "$1", "example": "35" }
+    },
+    "description": "会话行内的标签数。"
+  },
+  "footerStats": {
+    "message": "已暂存 $SESSIONS$ 个会话 · 节省 $TABS$ 个标签页",
+    "placeholders": {
+      "sessions": { "content": "$1", "example": "8" },
+      "tabs": { "content": "$2", "example": "240" }
+    },
+    "description": "底部统计行。"
+  },
+  "restore": {
+    "message": "恢复",
+    "description": "恢复会话按钮。"
+  },
+  "rename": {
+    "message": "重命名",
+    "description": "重命名按钮。"
+  },
+  "delete": {
+    "message": "删除",
+    "description": "删除按钮。"
+  },
+  "openOptions": {
+    "message": "设置",
+    "description": "底部跳设置页。"
+  },
+  "optionsTitle": {
+    "message": "TabPal — 设置",
+    "description": "设置页标题。"
+  },
+  "generalHeading": {
+    "message": "通用",
+    "description": "设置分组。"
+  },
+  "autoCloseLabel": {
+    "message": "暂存后自动关闭标签页",
+    "description": "自动关闭开关。"
+  },
+  "autoCloseHelp": {
+    "message": "开启后,标签页会在暂存后立刻关闭;关闭则保留打开。",
+    "description": "自动关闭说明。"
+  },
+  "dataHeading": {
+    "message": "数据",
+    "description": "设置分组。"
+  },
+  "exportJson": {
+    "message": "导出 JSON",
+    "description": "导出按钮。"
+  },
+  "importJson": {
+    "message": "导入 JSON",
+    "description": "导入按钮。"
+  },
+  "clearAll": {
+    "message": "清空所有",
+    "description": "危险操作:清空本地数据。"
+  },
+  "clearAllConfirm": {
+    "message": "确定删除所有会话?此操作无法撤销。",
+    "description": "清空前确认。"
+  },
+  "statsHeading": {
+    "message": "统计",
+    "description": "统计分组。"
+  },
+  "statsThisWeek": {
+    "message": "本周",
+    "description": "统计标签。"
+  },
+  "statsAllTime": {
+    "message": "累计",
+    "description": "统计标签。"
+  },
+  "statsSaves": {
+    "message": "已暂存 $COUNT$ 次",
+    "placeholders": {
+      "count": { "content": "$1", "example": "12" }
+    },
+    "description": "暂存次数。"
+  },
+  "statsTabs": {
+    "message": "已节省 $COUNT$ 个标签页",
+    "placeholders": {
+      "count": { "content": "$1", "example": "412" }
+    },
+    "description": "累计节省标签数。"
+  },
+  "aboutHeading": {
+    "message": "关于",
+    "description": "关于分组。"
+  },
+  "aboutVersion": {
+    "message": "版本",
+    "description": "版本号标签。"
+  },
+  "aboutFeedback": {
+    "message": "提交反馈",
+    "description": "反馈链接。"
+  },
+  "aboutPrivacy": {
+    "message": "隐私政策",
+    "description": "隐私政策链接。"
+  },
+  "toastSaved": {
+    "message": "已暂存 $COUNT$ 个标签页",
+    "placeholders": {
+      "count": { "content": "$1", "example": "30" }
+    },
+    "description": "保存后提示。"
+  },
+  "toastRestored": {
+    "message": "已恢复 $COUNT$ 个标签页",
+    "placeholders": {
+      "count": { "content": "$1", "example": "30" }
+    },
+    "description": "恢复后提示。"
+  },
+  "toastDeleted": {
+    "message": "会话已删除",
+    "description": "删除后提示。"
+  },
+  "toastRenamed": {
+    "message": "会话已重命名",
+    "description": "重命名后提示。"
+  },
+  "toastImported": {
+    "message": "已导入 $COUNT$ 个会话",
+    "placeholders": {
+      "count": { "content": "$1", "example": "3" }
+    },
+    "description": "导入后提示。"
+  },
+  "toastExported": {
+    "message": "导出文件已下载",
+    "description": "导出后提示。"
+  },
+  "toastCleared": {
+    "message": "本地数据已清空",
+    "description": "清空后提示。"
+  },
+  "toastImportFailed": {
+    "message": "导入失败 — JSON 文件无效。",
+    "description": "导入失败提示。"
+  },
+  "renamePrompt": {
+    "message": "重命名会话",
+    "description": "重命名弹窗标题。"
+  },
+  "defaultSessionName": {
+    "message": "$COUNT$ 个标签页 · $DATETIME$",
+    "placeholders": {
+      "count": { "content": "$1", "example": "35" },
+      "datetime": { "content": "$2", "example": "2024-08-29 13:14" }
+    },
+    "description": "默认会话名称。"
+  },
+  "justNow": {
+    "message": "刚刚",
+    "description": "相对时间。"
+  },
+  "minutesAgo": {
+    "message": "$COUNT$ 分钟前",
+    "placeholders": {
+      "count": { "content": "$1", "example": "5" }
+    },
+    "description": "相对时间。"
+  },
+  "hoursAgo": {
+    "message": "$COUNT$ 小时前",
+    "placeholders": {
+      "count": { "content": "$1", "example": "3" }
+    },
+    "description": "相对时间。"
+  },
+  "daysAgo": {
+    "message": "$COUNT$ 天前",
+    "placeholders": {
+      "count": { "content": "$1", "example": "2" }
+    },
+    "description": "相对时间。"
+  }
+}
